@@ -16,7 +16,7 @@ for (let i = 0; i < arr.length; i++) {
 // Task 5
 const num = [1, 2, 3, 4, 5];
 let result = 0;
-for (let i = 0; i < arr.length; i++) {
+for (let i = 0; i < num.length; i++) {
     result +=  Math.pow(num[i], 2);
 }
  console.log(result);
